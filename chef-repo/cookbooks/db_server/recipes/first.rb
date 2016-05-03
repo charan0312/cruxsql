@@ -65,3 +65,29 @@ dsc_script 'install-sql-server' do
   EOH
 
 end
+dsc_script 'port' do
+  code <<-EOH
+    Script portconfiguration
+          {
+           
+     SetScript = {
+               New-NetFirewallRule -DisplayName "SqlServer" -Direction Inbound -LocalPort 1433 -Protocol TCP
+
+            }
+           TestScript = {
+             $temp =Show-NetFirewallRule | Where-Object {$_.LocalPort -eq 1433}
+             if($temp -eq $null)
+             {
+
+               $false
+             }
+             else
+             {
+               $true
+             }
+            }
+           GETScript = {
+            }
+          }
+EOH
+end
