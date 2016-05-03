@@ -1,0 +1,7 @@
+DEPENDENCIES
+  db_server
+    path: .
+    metadata: true
+
+GRAPH
+  db_server (0.1.0)

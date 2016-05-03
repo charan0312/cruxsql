@@ -1,0 +1,797 @@
+{
+  "name": "charan0312",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 1,
+        "vendor_id": "GenuineIntel",
+        "family": "1",
+        "model": "15876",
+        "stepping": "4",
+        "physical_id": "CPU0",
+        "model_name": "Intel64 Family 6 Model 62 Stepping 4",
+        "mhz": "2500",
+        "cache_size": " KB"
+      },
+      "total": 1,
+      "cores": 1,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 42580570,
+        "kb_available": 6545035,
+        "kb_used": 36035535,
+        "percent_used": 84,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "E:": {
+        "kb_size": 4509646,
+        "kb_available": 0,
+        "kb_used": 4509646,
+        "percent_used": 100,
+        "mount": "E:",
+        "fs_type": "cdfs",
+        "volume_name": "SQLFULL_ENU"
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "9600",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows Server 2012 R2 Standard",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "WIN-6LP7VA3MO02",
+        "current_time_zone": 0,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 3,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "66652",
+        "free_space_in_paging_files": "7813636",
+        "free_virtual_memory": "7636604",
+        "install_date": "20160502054905.000000+000",
+        "large_system_cache": null,
+        "last_boot_up_time": "20160502065623.492350+000",
+        "local_date_time": "20160502135006.417000+000",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows Server 2012 R2 Standard|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 58,
+        "number_of_users": 3,
+        "operating_system_sku": 7,
+        "organization": "Amazon.com",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 272,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 3,
+        "registered_user": "EC2",
+        "serial_number": "00252-70000-00000-AA535",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "8388608",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume2",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "9436784",
+        "total_visible_memory_size": "1048176",
+        "version": "6.3.9600",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows Server 2012 R2 Standard",
+      "release": "6.3.9600",
+      "version": "6.3.9600  Build 9600",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": false,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "bootup_state": "Normal boot",
+        "caption": "WIN-6LP7VA3MO02",
+        "chassis_bootup_state": 3,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 0,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "WIN-6LP7VA3MO02",
+        "domain": "WORKGROUP",
+        "domain_role": 2,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": true,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "Xen",
+        "model": "HVM domU",
+        "name": "WIN-6LP7VA3MO02",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 1,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "Xen"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 1,
+        "pc_system_type_ex": 1,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "EC2",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "SQLServer",
+          "NT",
+          "Server_NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "1073332224",
+        "user_name": null,
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "8388608kB",
+        "free": "7813652kB"
+      },
+      "total": "1048176kB",
+      "free": "66276kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xc": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000009] AWS PV Network Device",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "172.31.0.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "AWS PV Network Device #0",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20160502142716.000000+000",
+            "dhcp_lease_obtained": "20160502132716.000000+000",
+            "dhcp_server": "172.31.0.1",
+            "dns_domain": "sa-east-1.compute.internal",
+            "dns_domain_suffix_search_order": [
+              "sa-east-1.ec2-utilities.amazonaws.com",
+              "us-east-1.ec2-utilities.amazonaws.com",
+              "ec2-utilities.amazonaws.com",
+              "ec2.internal",
+              "compute-1.internal",
+              "sa-east-1.compute.internal"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "WIN-6LP7VA3MO02",
+            "dns_server_search_order": [
+              "172.31.0.2"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 9,
+            "interface_index": 12,
+            "ip_address": [
+              "172.31.8.70",
+              "fe80::29b9:c29a:be0d:1039"
+            ],
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.240.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "02:89:94:12:9F:43",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "xennet",
+            "setting_id": "{C7BAFAFE-DBF4-4C76-B406-8A25283E4CF9}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000009] AWS PV Network Device",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "AWS PV Network Device",
+            "device_id": "9",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{C7BAFAFE-DBF4-4C76-B406-8A25283E4CF9}",
+            "index": 9,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 12,
+            "last_error_code": null,
+            "mac_address": "02:89:94:12:9F:43",
+            "manufacturer": "Amazon Inc.",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "AWS PV Network Device #0",
+            "net_connection_id": "Ethernet",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "XENVIF\\VEN_XS0001&DEV_NET&REV_00000000\\0",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "AWS PV Network Device",
+            "service_name": "xennet",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "WIN-6LP7VA3MO02",
+            "time_of_last_reset": "20160502065623.492350+000"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "172.31.8.70": {
+              "prefixlen": "20",
+              "netmask": "255.255.240.0",
+              "broadcast": "172.31.15.255",
+              "family": "inet"
+            },
+            "fe80::29b9:c29a:be0d:1039": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "02:89:94:12:9F:43": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "169.254.169.254": "02:c5:6e:af:34:73",
+            "172.31.0.1": "02:c5:6e:af:34:73",
+            "172.31.0.2": "02:c5:6e:af:34:73",
+            "172.31.15.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "172.31.0.1",
+      "default_interface": "0xc"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "172.31.8.70",
+    "macaddress": "02:89:94:12:9F:43",
+    "ip6address": "fe80::29b9:c29a:be0d:1039",
+    "os": "windows",
+    "os_version": "6.3.9600",
+    "platform": "windows",
+    "platform_version": "6.3.9600",
+    "platform_family": "windows",
+    "uptime_seconds": 24856,
+    "uptime": "6 hours 54 minutes 16 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
+      "powershell": {
+        "version": "4.0",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "6.3.9600.17400",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0"
+        ],
+        "remoting_protocol_version": "2.2"
+      },
+      "ruby": {
+        "platform": "i386-mingw32",
+        "version": "2.1.8",
+        "release_date": "2015-12-16",
+        "target": "i386-pc-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "pc",
+        "target_os": "mingw32",
+        "host": "i686-pc-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "pc",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.9.41",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.9.41/lib"
+      },
+      "ohai": {
+        "version": "8.14.0",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/ohai-8.14.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "ec2": {
+      "ami_id": "ami-6efd7302",
+      "ami_launch_index": "0",
+      "ami_manifest_path": "(unknown)",
+      "block_device_mapping_ami": "/dev/sda1",
+      "block_device_mapping_root": "/dev/sda1",
+      "hostname": "ip-172-31-8-70.sa-east-1.compute.internal",
+      "instance_action": "none",
+      "instance_id": "i-7018f8f2",
+      "instance_type": "t2.micro",
+      "local_hostname": "ip-172-31-8-70.sa-east-1.compute.internal",
+      "local_ipv4": "172.31.8.70",
+      "mac": "02:89:94:12:9f:43",
+      "metrics_vhostmd": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "network_interfaces_macs": {
+        "02:89:94:12:9f:43": {
+          "device_number": "0",
+          "interface_id": "eni-63f83405",
+          "ipv4-associations": {
+            "52.67.51.74": "172.31.8.70"
+          },
+          "local_hostname": "ip-172-31-8-70.sa-east-1.compute.internal",
+          "local_ipv4s": "172.31.8.70",
+          "mac": "02:89:94:12:9f:43",
+          "owner_id": "231938700547",
+          "public_hostname": "ec2-52-67-51-74.sa-east-1.compute.amazonaws.com",
+          "public_ipv4s": "52.67.51.74",
+          "security_group_ids": "sg-7f02361a",
+          "security_groups": "New",
+          "subnet_id": "subnet-0c59ab68",
+          "subnet_ipv4_cidr_block": "172.31.0.0/20",
+          "vpc_id": "vpc-e4c9e781",
+          "vpc_ipv4_cidr_block": "172.31.0.0/16"
+        }
+      },
+      "placement_availability_zone": "sa-east-1a",
+      "profile": "windows-hvm",
+      "public_hostname": "ec2-52-67-51-74.sa-east-1.compute.amazonaws.com",
+      "public_ipv4": "52.67.51.74",
+      "public_keys_0_openssh_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCKYX+tFd5TquVv+9QttRtaTuLi3UOX36PgYFcdQYJ+hQ0JpG2UH4MniN4D8vdbSzTqW3m28Z+zd2aKAnosuhTPftHvnhwI9gAVPDGU60kdwUMRjeOHcw+NC4O/edyVCH+JNpNn/SjhP6nlttSrp5+FZ+TSGORWxvOqdwfreEKGPvp29A59mMVQt4Ct8AXHSrRrA3+YTuJGnvX5POB5OCyqAbYoNkwYcvglyGlmdt7IwUP3Ox3kk0zup5414ISWjFzMt9KGsDjYwgN1EQioML0L56BDBDV19dwsWtMSSVKFqDWcv25+0OqX0GkscDlFmtMEp7raoVy1akDy13NSKGXf abcd\n",
+      "reservation_id": "r-1a21f6f8",
+      "security_groups": [
+        "New"
+      ],
+      "services_domain": "amazonaws.com",
+      "userdata": null
+    },
+    "cloud": {
+      "public_ips": [
+        "52.67.51.74"
+      ],
+      "private_ips": [
+        "172.31.8.70"
+      ],
+      "public_ipv4": "52.67.51.74",
+      "public_hostname": "ec2-52-67-51-74.sa-east-1.compute.amazonaws.com",
+      "local_ipv4": "172.31.8.70",
+      "local_hostname": "ip-172-31-8-70.sa-east-1.compute.internal",
+      "provider": "ec2"
+    },
+    "cloud_v2": {
+      "public_ipv4_addrs": [
+        "52.67.51.74"
+      ],
+      "local_ipv4_addrs": [
+        "172.31.8.70"
+      ],
+      "provider": "ec2",
+      "public_hostname": "ec2-52-67-51-74.sa-east-1.compute.amazonaws.com",
+      "local_hostname": "ip-172-31-8-70.sa-east-1.compute.internal",
+      "public_ipv4": "52.67.51.74",
+      "local_ipv4": "172.31.8.70"
+    },
+    "command": {
+
+    },
+    "hostname": "WIN-6LP7VA3MO02",
+    "machinename": "WIN-6LP7VA3MO02",
+    "fqdn": "WIN-6LP7VA3MO02",
+    "domain": null,
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "ohai_time": 1462197066.8946,
+    "packages": {
+      "Microsoft Help Viewer 1.1": {
+        "version": "1.1.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 (64-bit)": {
+        "publisher": "Microsoft Corporation"
+      },
+      "Microsoft SQL Server 2012 Transact-SQL ScriptDom ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 Database Engine Services": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 Data quality service": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 Common Files": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 Management Studio": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 Full text search": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft VSS Writer for SQL Server 2012": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 Native Client ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 Database Engine Shared": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "aws-cfn-bootstrap": {
+        "version": "1.4.10",
+        "publisher": "Amazon Web Services",
+        "installdate": "20150813"
+      },
+      "SQL Server 2012 BI Development Studio": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Visual Studio 2010 Prerequisites - English": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 Client Tools": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 Documentation Components": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "AWS PV Drivers": {
+        "version": "7.3.2",
+        "publisher": "Amazon Web Services",
+        "installdate": "20150813"
+      },
+      "EC2ConfigService": {
+        "version": "3.15.880.0",
+        "publisher": "Amazon Web Services"
+      },
+      "Microsoft SQL Server 2012 Setup (English)": {
+        "version": "11.1.3128.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 Data-Tier App Framework ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 RsFx Driver": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2008 Setup Support Files ": {
+        "version": "10.1.2731.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 Transact-SQL Compiler Service ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Sql Server Customer Experience Improvement Program": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 T-SQL Language Service ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server 2012 SQL Data Quality Common": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft System CLR Types for SQL Server 2012 (x64)": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 Management Objects  (x64)": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Google Chrome": {
+        "version": "50.0.2661.94",
+        "publisher": "Google Inc.",
+        "installdate": "20160502"
+      },
+      "Microsoft Visual Studio 2010 Shell (Integrated) - ENU": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft Visual Studio Tools for Applications x86 Runtime 3.0": {
+        "version": "10.0.40220",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "SQL Server Browser for SQL Server 2012": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft Visual Studio Tools for Applications Design-Time 3.0": {
+        "version": "10.0.40220",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Chef Development Kit v0.13.21": {
+        "version": "0.13.21.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20160502"
+      },
+      "Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Google Update Helper": {
+        "version": "1.3.29.5",
+        "publisher": "Google Inc.",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2008 R2 Management Objects": {
+        "version": "10.51.2500.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Prerequisites for SSDT ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft Application Error Reporting": {
+        "version": "12.0.6012.5000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft Report Viewer 2012 Runtime": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974": {
+        "version": "9.0.30729.4974",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "AWS Tools for Windows": {
+        "version": "3.9.329.0",
+        "publisher": "Amazon Web Services Developer Relations",
+        "installdate": "20160412"
+      },
+      "Microsoft SQL Server System CLR Types": {
+        "version": "10.51.2500.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft .NET Framework 4 Multi-Targeting Pack": {
+        "version": "4.0.30319",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft Visual Studio 2010 Shell (Isolated) - ENU": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 Management Objects ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server 2012 Policies ": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft System CLR Types for SQL Server 2012": {
+        "version": "11.0.2100.60",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      },
+      "Microsoft SQL Server Data Tools – Database Projects – Web installer entry point": {
+        "version": "10.3.20116.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160502"
+      }
+    },
+    "root_group": "Administrators",
+    "recipes": [
+      "db_server",
+      "db_server::default",
+      "db_server::second"
+    ],
+    "expanded_run_list": [
+      "db_server::default"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "db_server": {
+        "version": "0.1.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[db_server]"
+  ]
+}
