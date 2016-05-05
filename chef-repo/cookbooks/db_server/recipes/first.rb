@@ -58,7 +58,7 @@ dsc_script 'install-sql-server' do
   Script install-sql-server{
     GetScript = {  }
     SetScript = {
-	$passwd = "Welcome@1234"
+	$passwd = "Rakesh@123"
 	$sa_passwd = "Welcome@1234"
   Mount-DiskImage -ImagePath 'c:\\sql.iso'
 	D:\\setup.exe /q /ACTION=Install /FEATURES=SQL,Tools /INSTANCENAME=MSSQLSERVER /SECURITYMODE=SQL /SAPWD=$sa_passwd /SQLSVCACCOUNT="Administrator" /SQLSVCPASSWORD=$passwd /SQLSYSADMINACCOUNTS="Administrator" /AGTSVCACCOUNT="NT AUTHORITY\\Network Service" /IACCEPTSQLSERVERLICENSETERMS /UpdateEnabled
