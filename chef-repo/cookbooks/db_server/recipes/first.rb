@@ -30,12 +30,12 @@ dsc_script 'Web-Asp-Net35' do
   EOH
 end
 
-file "C:\\Users\\Administrator\\Documents\\sample_db.sql" do
+file "C:\\Users\\Administrator\\Documents\\script.sql" do
    action :delete
 end
 
 remote_file "C:\\Users\\Administrator\\Documents\\sample_db.zip" do
-  source 'https://s3-ap-northeast-1.amazonaws.com/swamykonanki/sample+db.zip'
+  source 'https://s3-ap-northeast-1.amazonaws.com/swamykonanki/script.zip'
   action :create
 end
 
